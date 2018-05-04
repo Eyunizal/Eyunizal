@@ -4,7 +4,7 @@
 
   /*body*/
   body {
-    background: url(img/sanbruno.jpg);
+    background: url(assets/img/sanbruno.jpg);
     background-repeat: no-repeat;
   }
   
@@ -39,7 +39,8 @@
   ul li {
     display: inline;
   }
-
+  
+  
   /*section*/
   #article-list {
     /*margin: 20px 250px;*/
@@ -81,3 +82,17 @@
     background-color: black;
     line-height: 70px;
   }
+
+/*About Me*/
+.margin-top-profile{
+  margin-top: 80px;
+  }
+.border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  }
+#profilePic {
+  vertical-align: center;
+}
