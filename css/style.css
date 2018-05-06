@@ -4,8 +4,9 @@
 
   /*body*/
   body {
-    background: url(assets/img/sanbruno.jpg);
+    background: url('assets/img/sanbruno.jpg');
     background-repeat: no-repeat;
+    font-family: 'helvetica';
   }
   
   /*header*/
@@ -51,7 +52,7 @@
   h1 {
     text-align: center;
     color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'helvetica';
     font-size: 50px;
     margin-bottom: 20px;
   }
