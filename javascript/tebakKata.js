@@ -119,22 +119,22 @@ function klikTebak(){
     
     // Gambar Korban
     if (jumlahSalah === 1){
-        document.getElementById('korban').innerHTML = '<img src="assets/gambar/1.jpg" alt="Tiang Maut">';    
+        document.getElementById('korban').innerHTML = '<img src="assets/img/1.jpg" alt="Tiang Maut">';    
     }
     if (jumlahSalah === 2){
-        document.getElementById('korban').innerHTML = '<img src="assets/gambar/2.jpg" alt="Tiang Maut Dengan Gantungan">';
+        document.getElementById('korban').innerHTML = '<img src="assets/img/2.jpg" alt="Tiang Maut Dengan Gantungan">';
     }
     if (jumlahSalah === 3){
-        document.getElementById('korban').innerHTML = '<img src="assets/gambar/3.jpg" alt="Kepala Menggantung">';
+        document.getElementById('korban').innerHTML = '<img src="assets/img/3.jpg" alt="Kepala Menggantung">';
     }
     if (jumlahSalah === 4){
-        document.getElementById('korban').innerHTML = '<img src="assets/gambar/4.jpg" alt="Kepala Badan">';
+        document.getElementById('korban').innerHTML = '<img src="assets/img/4.jpg" alt="Kepala Badan">';
     }
     if (jumlahSalah === 5){
-        document.getElementById('korban').innerHTML = '<img src="assets/gambar/5.jpg" alt="Tubuh Tanpa Kaki">';
+        document.getElementById('korban').innerHTML = '<img src="assets/img/5.jpg" alt="Tubuh Tanpa Kaki">';
     }
     if (jumlahSalah === 6){
-        document.getElementById('korban').innerHTML = '<img src="assets/gambar/6.jpg" alt="Tiada">';
+        document.getElementById('korban').innerHTML = '<img src="assets/img/6.jpg" alt="Tiada">';
     }
 }
 
