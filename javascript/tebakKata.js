@@ -79,20 +79,15 @@ function klikTebak(){
     
     // Action benar
     for (var i = 0; i < array.length; i++){
-        if (array[i].split('-').length > 1){
-            if (inputHuruf === array[i][0]){
-                falseCounter = true;
-            }else{
+       
                 if (inputHuruf === array[i]){
                 var showHuruf = document.getElementById('huruf' + i);
                     showHuruf.innerHTML = array[i].toUpperCase();
                 falseCounter = true;
                 jumlahBenar += 1;
-                ubahIndex = i;
-                array.splice(ubahIndex, 1, array[ubahIndex] + '-1');
+                
                 }
-            }
-        }
+            
     }
     
     // Action Salah
