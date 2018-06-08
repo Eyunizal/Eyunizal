@@ -42,6 +42,7 @@ var jawaban = '';
 var hint = '';    
 var array= [];
 
+
 // =================== Logika ===================
 // Acak Soal
 for (var i = 0; i< bankSoal.length; i++){
@@ -132,4 +133,5 @@ function klikTebak(){
         document.getElementById('korban').innerHTML = '<img src="assets/img/6.jpg" alt="Tiada">';
     }
 }
+
 
